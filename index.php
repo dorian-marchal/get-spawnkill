@@ -34,9 +34,14 @@
 <body>
 	<div class="container" >
 		<section id="fixed-box" class="col-lg-push-7 col-lg-4 col-md-push-8 col-md-4" >
-			<a href="#download-box" id="get-spawnkill" class="btn btn-lg btn-success" >
-				<span class="glyphicon glyphicon-download-alt"></span> Installer SpawnKill
-			</a>
+			<div class="clearfix" >
+				<a href="#download-box" id="get-spawnkill" class="btn btn-lg btn-success" >
+					<span class="glyphicon glyphicon-download-alt"></span> Installer SpawnKill
+				</a>
+				<a href="https://github.com/dorian-marchal/spawnkill" target="_blank" id="to-github" class="btn btn-lg btn-default" >
+					<span class="glyphicon glyphicon-link"></span> Github
+				</a>
+			</div>
 			<div id="sondage" >
 				<h3>Voter pour la prochaine fonctionnalité :</h3>
 				<iframe frameborder="0" allowtransparency="true" title="Sondage" src="http://sondage.io/957/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill" ></iframe>
@@ -84,6 +89,27 @@
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Nouveau topic" >
 					<img src="img/nouveau-topic.png" />
+				</div>
+			</div>
+
+			<div class="feature" >
+				<h3>Accès rapide à la dernière page d'un topic</h3>
+				<p>
+					Ce module ajoute un lien sur les icônes des topics dans la liste des sujets permettant d'accéder directement à la dernière page de ce topic.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Accès à la dernière page" >
+					<img src="img/last-page.png" />
+				</div>
+			</div>
+
+			<div class="feature" >
+				<h3>Panneau de configuration</h3>
+				<p>
+					Ce panneau permet de choisir et de configurer tous les modules du Script.
+					Il s'ouvre à la première installation ou en cliquant sur l'engrenage en haut à droite du forum
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Panneau de configuration" >
+					<img src="img/config-panel.png" />
 				</div>
 			</div>
 

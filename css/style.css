@@ -26,8 +26,13 @@ h3 {
 	min-height: 100%;
 }
 
-#get-spawnkill {
+#get-spawnkill,
+#to-github {
 	margin-bottom: 30px;
+}
+
+#to-github {
+	float: right;
 }
 
 #sondage iframe {
