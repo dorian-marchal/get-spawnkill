@@ -1,0 +1,101 @@
+h1 {
+	color: #666666;
+}
+
+h2, h4 {
+	color: #777;
+}
+
+h3 {
+	color: #FF6400;
+	margin-top: 10px;
+}
+
+.box {
+	display: none;
+}
+
+.box h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#fixed-box {
+	position: fixed;
+	margin-top: 24px;
+	min-height: 100%;
+}
+
+#get-spawnkill {
+	margin-bottom: 30px;
+}
+
+#sondage iframe {
+	width: 100%;
+	height: 500px;
+	border: solid 1px #CCC;
+	border-radius: 5px;
+}
+
+.feature {
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	border: 1px solid #EEE;
+	background-color: #F5F5F5;
+}
+
+.feature-img {
+	display: inline-block;
+}
+
+.icon-browser {
+	padding-left: 24px;
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.firefox {
+	background-image: url("../img/firefox.png");
+}
+
+.chrome {
+	background-image: url("../img/chrome.png");
+}
+
+.opera {
+	background-image: url("../img/opera.gif");
+}
+
+.gm-enabled {
+	display: none;
+	color: green;
+	margin-left: 10px;
+}
+
+
+
+@media (max-width: 1200px) {
+	.feature-img,
+	.feature img {
+		max-width: 100%;
+	}
+
+	.tooltip {
+		/*left: 80% !important;*/
+		/*display: none !important;*/
+	}
+}
+
+@media (max-width: 992px) {
+	.feature img {
+		max-width: 100%;
+	}
+	.tooltip {
+		/*display: none !important;*/
+	}
+
+	#fixed-box {
+		position: static;
+	}	
+}
