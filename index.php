@@ -144,7 +144,7 @@
 		<?php endif; ?>
 		<br />
 		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
-		<a target="_blank" class="btn btn-sm btn-primary" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?<?php echo "$rand"; ?>" >
+		<a target="_blank" class="btn btn-sm btn-primary" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
