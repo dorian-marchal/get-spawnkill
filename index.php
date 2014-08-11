@@ -65,10 +65,16 @@
 				<h3>Citations</h3>
 				<p>
 					Permet de citer un message de manière propre simplement en cliquant sur un bouton "citer".
+					Les citations sont ensuite mises en forme pour mieux ressortir du message.
 				</p>
 				<br />
-				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation" >
-					<img src="img/citation.png" />
+				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation texte" >
+					<img src="img/citations-texte.png" />
+				</div>
+				<br/>
+				<br/>
+				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation amélioré" >
+					<img src="img/citations-html.png" />
 				</div>
 			</div>
 
@@ -138,7 +144,7 @@
 		<?php endif; ?>
 		<br />
 		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
-		<a target="_blank" class="btn btn-sm btn-primary" href="http://dl.spixel.fr/greasemonkey/jvc-spawnkill/jvc-spawnkill.user.js?<?php echo "$rand"; ?>" >
+		<a target="_blank" class="btn btn-sm btn-primary" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
