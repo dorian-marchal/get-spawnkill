@@ -89,6 +89,17 @@
 			</div>
 
 			<div class="feature" >
+				<h3>Intégration YouTube</h3>
+				<h4>(Développé par <a target="_blank" href="https://github.com/Apoxx" >Apoxx</a>)</h4>
+				<p>
+					Remplace les liens vers une vidéo YouTube par la vidéo elle-même.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Vidéo Youtube" >
+					<img src="img/youtube.png" />
+				</div>
+			</div>
+
+			<div class="feature" >
 				<h3>Mise en avant des nouveaux topics</h3>
 				<p>
 					Permet de voir facilement les nouveaux topics dans la liste des sujets
