@@ -60,15 +60,15 @@ h3 {
 	background-position: 0px 2px;
 }
 
-.firefox {
+.icon-browser.firefox {
 	background-image: url("../img/firefox.png");
 }
 
-.chrome {
+.icon-browser.chrome {
 	background-image: url("../img/chrome.png");
 }
 
-.opera {
+.icon-browser.opera {
 	background-image: url("../img/opera.gif");
 }
 

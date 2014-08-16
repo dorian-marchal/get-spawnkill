@@ -1,4 +1,5 @@
 "use strict";
+
 $(function() {
 	
 	//Légendes des images
@@ -13,4 +14,5 @@ $(function() {
 		$("#get-spawnkill").click();		
 	}
 
+	$(".browser:not(." + browser + ")").remove();
 });
