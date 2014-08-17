@@ -106,6 +106,16 @@
 			</div>
 
 			<div class="feature" >
+				<h3>Être prévenu des nouveaux posts</h3>
+				<p>
+					Ce module change le favicon de l'onglet pour indiquer combien de posts ont été ajoutés au topic depuis le chargement de la page.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Nouveaux posts" >
+					<img src="img/nouveaux-posts.png" />
+				</div>
+			</div>
+
+			<div class="feature" >
 				<h3>Mise en avant des nouveaux topics</h3>
 				<p>
 					Permet de voir facilement les nouveaux topics dans la liste des sujets
