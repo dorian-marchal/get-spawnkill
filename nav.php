@@ -31,11 +31,11 @@
                     <a onclick="$('.donation-form').submit();" href="#">Donner 2€</a>
                 </li>
                 <li>
-                    <form>
+                    <div>
                         <a target="_blank" href="http://www.jeuxvideo.com/forums/1-50-167035670-18-0-1-0-script-jvc-spawnkill-en-attendant-re.htm#footer" id="bug" class="btn btn-default navbar-btn" >
                             <span class="glyphicon glyphicon-cog" ></span> Reporter un bug
                         </a>
-                    </form>
+                    </div>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
