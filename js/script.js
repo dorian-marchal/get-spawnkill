@@ -8,10 +8,10 @@ $(function() {
 	});
 
 	//Popup de téléchargement
-	$("#get-spawnkill").fancybox();
+	$("#download-button a").fancybox();
 	
 	if(window.location.hash.substring(1) === "download-box") {
-		$("#get-spawnkill").click();		
+		$("#download-button a").click();		
 	}
 
 	$(".browser:not(." + browser + ")").remove();
