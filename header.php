@@ -1,10 +1,29 @@
 <?php
-	$base_url = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
+	$tab_dir = explode("/", getcwd());
+	$base_url = "http://" . $_SERVER['SERVER_NAME'] . "/" . end($tab_dir);
+
+	//Génération d'une chaine userscript alétaoire
+	$rand = md5(uniqid(rand(), true)) . '.user.js';
+
+	$user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+	$browser = "other";
+	if(strpos($user_agent, "firefox")) {
+		$browser = "firefox";
+	}
+	else if(strpos($user_agent, "chrome") && !strpos($user_agent, "opr")) {
+		$browser = "chrome";
+	}
+	else if(strpos($user_agent, "opr") || strpos($user_agent, "opera") || strpos($user_agent, "applewebkit")) {
+		$browser = "opera";
+	}
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 	<title>JVC SpawnKill</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css?1">

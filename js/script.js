@@ -14,5 +14,10 @@ $(function() {
 		$("#download-button a").click();		
 	}
 
+	//Aide d'installation
+	$(document).on("click", ".help", function() {
+		$("." + $(this).attr("data-help")).slideDown();
+	});
+
 	$(".browser:not(." + browser + ")").remove();
 });

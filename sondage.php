@@ -1,29 +1,32 @@
-<?php //header("Location: http://sondage.io/957/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill"); ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<title>JVC SpawnKill : Sondage</title>
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
-	<script src="js/jquery.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-</head>
+<?php $page = "sondage"; ?>
+<?php
 
-<body style="background-color: #EEEEEE;" >
-	<div id="sondage-full" >
-		<!-- <iframe style="display: block; height: 820px; margin:auto; margin-top: 30px;" scrolling="no" frameborder="0" allowtransparency="true" title="Sondages Pixule" width="370" height="365" src="http://sondage.io/957/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill" data-key="238811875775"></iframe> -->
-		<iframe style="display: block; margin:auto;" scrolling="no" frameborder="0" allowtransparency="true" title="Sondages" width="520" height="930" src="http://sondage.io/1065/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill" ></iframe>
-		<div style="background-color: #EEEEEE; position: absolute; height: 50px; width: 100%; top: 0; left: 0;" >
+	//Génération d'une chaine userscript alétaoire
+	$rand = md5(uniqid(rand(), true)) . '.user.js';
+
+	$user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+	$browser = "other";
+	if(strpos($user_agent, "firefox")) {
+		$browser = "firefox";
+	}
+	else if(strpos($user_agent, "chrome") && !strpos($user_agent, "opr")) {
+		$browser = "chrome";
+	}
+	else if(strpos($user_agent, "opr") || strpos($user_agent, "opera") || strpos($user_agent, "applewebkit")) {
+		$browser = "opera";
+	}
+?>
+
+<?php include "header.php"; ?>
+<?php include "nav.php"; ?>
+<?php include "fixed-box.php"; ?>
+
+	<section class="col-lg-7 col-md-8">
+		<h1>Voter pour la prochaine fonctionnalité !</h1>
+		<div id="sondage" >
+			<iframe frameborder="0" allowtransparency="true" title="Sondage" src="http://sondage.io/1065/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill" ></iframe>
 		</div>
-		<p style="color: #666; font-size: 0.8em; text-align: center;margin-bottom: 50px;">
-			Note : le sondage a été remis à zéro le 07/08/2014 pour ajouter de nouvelles options.
-		</p>
-	</div>
-	<script>
+	</section>
+</div>
 
-	</script>
-</body>
-
-</html>
+<?php include "footer.php"; ?>
