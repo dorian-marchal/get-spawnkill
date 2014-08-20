@@ -1,3 +1,6 @@
+<?php
+	$base_url = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,4 +16,4 @@
 </head>
 
 <body>
-	<div class="container" >
+	<div class="container" id="container" >
