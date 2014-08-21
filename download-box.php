@@ -63,4 +63,18 @@
 			$(".gm-enabled").fadeIn();
 		}
 	</script>
+	<form target="_blank" style="display: none;" class="donation-download-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	    <input name="cmd" value="_donations" type="hidden">
+	    <input name="business" value="LHTF3GZ496X8U" type="hidden">
+	    <input name="lc" value="FR" type="hidden">
+	    <input name="item_name" value="Dorian Marchal" type="hidden">
+	    <input name="amount" value="2.00" type="hidden">
+	    <input name="currency_code" value="EUR" type="hidden">
+	    <input name="bn" value="PP-DonationsBF:1408178230-capture-du-2014-08-16-10-33-38.jpg:NonHostedGuest" type="hidden">
+	</form>
+	<li>
+	    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#">
+	    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ à Spixel_
+	    </a>
+	</li>
 </div>
