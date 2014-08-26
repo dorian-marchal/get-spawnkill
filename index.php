@@ -106,6 +106,21 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
+				<h3>Mise en avant des PEMT</h3>
+				<h4>(Contributeur : <a target="_blank" href="https://github.com/nounoursheureux" >nounoursheureux</a>)</h4>
+			</div>
+			<div class="panel-body" >
+				<p>
+					Met en avant les posts simultanés en surlignant l'heure de ces posts.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="PEMT" >
+					<img src="img/pemt.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default feature" >
+			<div class="panel-heading" >
 				<h3>Accès rapide à la dernière page d'un topic</h3>
 			</div>
 			<div class="panel-body" >

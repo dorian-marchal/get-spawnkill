@@ -74,7 +74,7 @@
 	</form>
 	<li>
 	    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#">
-	    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ à Spixel_
+	    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ pour l'hébergement du script
 	    </a>
 	</li>
 </div>

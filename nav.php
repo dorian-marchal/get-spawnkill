@@ -28,7 +28,7 @@
                     <input name="bn" value="PP-DonationsBF:1408178230-capture-du-2014-08-16-10-33-38.jpg:NonHostedGuest" type="hidden">
                 </form>
                 <li>
-                    <a onclick="$('.donation-form').submit();" href="#">Donner 2€</a>
+                    <a onclick="$('.donation-form').submit();" title="Donner 2€ pour l'hébergement du script" href="#">Me payer une bière</a>
                 </li>
                 <li>
                     <div>
