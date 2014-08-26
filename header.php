@@ -1,6 +1,5 @@
 <?php
-	$tab_dir = explode("/", getcwd());
-	$base_url = "http://" . $_SERVER['SERVER_NAME'] . "/" . end($tab_dir);
+	$base_url = "/";
 
 	//Génération d'une chaine userscript alétaoire
 	$rand = md5(uniqid(rand(), true)) . '.user.js';
