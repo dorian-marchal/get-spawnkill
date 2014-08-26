@@ -6,7 +6,7 @@ RewriteEngine On
 # dl.spixel.fr/get-spawnkill/* -> www.spawnkill.fr/*
 RewriteCond %{HTTP_HOST} ^dl.spixel.fr$
 Rewritecond %{REQUEST_URI} ^/get-spawnkill
-RewriteRule ^(.*?)$ http://www.spawnkill.fr/$1 [R=301,L]
+RewriteRule ^get-spawnkill(.*?)$ http://www.spawnkill.fr/$1 [R=301,L]
 
 # spawnkill.fr/* -> www.spawnkill.fr/*
 RewriteCond %{HTTP_HOST} ^spawnkill.fr$
