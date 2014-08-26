@@ -1,0 +1,7 @@
+Options -Indexes
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^spawnkill.fr$
+RewriteRule ^(.*)$ http://www.spawnkill.fr/$1 [R=301,L]
