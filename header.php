@@ -1,5 +1,5 @@
 <?php
-	$base_url = "/";
+	$base_url = "http://www.spawnkill.fr/";
 
 	//Génération d'une chaine userscript alétaoire
 	$rand = md5(uniqid(rand(), true)) . '.user.js';
