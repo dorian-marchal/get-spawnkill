@@ -38,6 +38,14 @@
 				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation amélioré" >
 					<img src="img/citations-html.png" />
 				</div>
+				<br>
+				<br>
+				<p>
+					Ce module permet aussi de citer seulement une partie d'un post en sélectionnant le texte à citer.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Citation partielle" >
+					<img src="img/citation-partielle.png" />
+				</div>
 			</div>
 		</div>
 
