@@ -10,13 +10,21 @@ $(function() {
 	//Popup de téléchargement
 	$("#download-button a").fancybox();
 	
-	if(window.location.hash.substring(1) === "download-box") {
+	if(window.location.hash.substring(1) === "download-box" ||
+		window.location.hash.substring(1) === "download") {
 		$("#download-button a").click();		
 	}
 
 	//Aide d'installation
 	$(document).on("click", ".help", function() {
-		$("." + $(this).attr("data-help")).slideDown();
+
+		if(!$("." + $(this).attr("data-help")).is(":visible")) {
+			$("." + $(this).attr("data-help")).fadeIn();
+		}
+		else {
+			$("." + $(this).attr("data-help")).hide();
+		}
+		$.fancybox.update();
 	});
 
 	$(".browser:not(." + browser + ")").remove();

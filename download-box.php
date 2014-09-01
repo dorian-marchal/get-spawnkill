@@ -9,51 +9,59 @@
 		Avec Chrome : <a target="_blank" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Installer TamperMonkey</a>
 		<span class="gm-enabled glyphicon glyphicon-ok"></span>
 	</p>
+
 	<div class="browser opera" >
 		<p class="opera icon-browser" >
 			Avec Opera : <a target="_blank" href="https://addons.opera.com/fr/extensions/details/download-chrome-extension-9/?display=en" >Installer "Download Chrome Extensions"</a>
 		</p>
 		<br />
-		<h4><strong>Étape 2 :</strong> Installer TamperMonkey</h4>
+		<h4>
+			<strong>Étape 2 :</strong> Installer TamperMonkey
+		</h4>
 		<p class="opera icon-browser" >
-			Puis : <a target="_blank" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Installer TamperMonkey</a>
+			&#10137; <a target="_blank" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Installer TamperMonkey</a>
 			<span class="gm-enabled glyphicon glyphicon-ok"></span>
 		</p>
 		<br>
 		<h4><strong>Étape 3 :</strong> Activer TamperMonkey</h4>
 		<p class="opera icon-browser" >
-			Appuyer sur Ctrl + Shift + E puis cliquer sur "Activer" <img data-help="h1" src="img/help.gif" class="help" />
+			Appuyer sur <code>Ctrl + Shift + E</code> puis cliquer sur "Activer" <img data-help="h1" src="img/help.png" title="Afficher une image d'aide" class="help" />
 			<br>
 			<img class="h1 screen" src="img/enable-tampermonkey.png" title="Cliquer sur 'Activer'" />
 		</p>
 		<div>
 			<br>
 			<h4><strong>Étape 4 :</strong> Installer SpawnKill : 
-			<a target="_blank" class="btn btn-sm btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
+			<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 				<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 			</a>
 			</h4>
-			<p class="opera icon-browser" >Puis cliquer sur "Installer"  <img data-help="h2" src="img/help.gif" class="help" /></p>
+			<p class="opera icon-browser" >
+				Puis cliquer sur "Installer" <img data-help="h2" src="img/help.png" title="Afficher une image d'aide" class="help" />
+			</p>
 			<img class="h2 screen" src="img/install-tampermonkey.png" title="Cliquer sur 'Installer'" />
 		</div>
 	</div>
+
 	<br />
+
 	<div class="browser firefox" >
 		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
-		<a target="_blank" class="btn btn-sm btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
+		<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
-		<p class="firefox icon-browser" >Puis cliquer sur "Installer"  <img data-help="h3" src="img/help.gif" class="help" /></p>
+		<p class="firefox icon-browser" >Puis cliquer sur "Installer"  <img data-help="h3" src="img/help.png" title="Afficher une image d'aide" class="help" /></p>
 		<img class="h3 screen"src="img/install-greasemonkey.png" title="Cliquer sur 'Installer'" />
 	</div>
+
 	<div class="browser chrome" >
 		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
-		<a target="_blank" class="btn btn-sm btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
+		<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
-		<p class="chrome icon-browser" >Puis cliquer sur "Installer"  <img data-help="h4" src="img/help.gif" class="help" /></p>
+		<p class="chrome icon-browser" >Puis cliquer sur "Installer"  <img data-help="h4" src="img/help.png" title="Afficher une image d'aide" class="help" /></p>
 		<img class="h4 screen"src="img/install-tampermonkey.png" title="Cliquer sur 'Installer'" />
 	</div>
 	<script type="text/javascript" src="resource://greasemonkey/addons4.js"></script>
@@ -72,9 +80,7 @@
 	    <input name="currency_code" value="EUR" type="hidden">
 	    <input name="bn" value="PP-DonationsBF:1408178230-capture-du-2014-08-16-10-33-38.jpg:NonHostedGuest" type="hidden">
 	</form>
-	<li>
-	    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#">
-	    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ pour l'hébergement du script
-	    </a>
-	</li>
+    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#">
+    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ pour l'hébergement du script
+    </a>
 </div>

@@ -113,12 +113,13 @@ h3 {
 }
 
 #download-box img.screen {
-	/*display: none;*/
+	display: none;
 }
 
 .help {
-	display: none;
+	vertical-align: middle;
 	cursor: pointer;
+	margin-left: 5px;
 }
 
 #sondage iframe {
