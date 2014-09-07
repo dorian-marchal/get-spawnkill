@@ -8,12 +8,32 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
+				<h3>Tout est configurable !</h3>
+			</div>
+			<div class="panel-body" >
+				<p>
+					Le point fort du script : tous les modules sont configurables et même désactivables via un panneau de configuration très complet.
+					Il est impossible que vous ne trouviez pas quelque chose qui vous convient.
+					Le panneau s'ouvre à la première installation ou en cliquant sur l'engrenage en haut à droite du forum
+				</p>
+				<br />
+				<div data-toggle="tooltip" class="feature-img" title="Panneau de configuration" >
+					<img src="img/settings.png" /> 
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default feature" >
+			<div class="panel-heading" >
 				<h3>Avatars et autres infos</h3>
 			</div>
 			<div class="panel-body" >
 				<p>
-					Affiche les avatars des membres à gauche des posts ainsi que leur rangs et leur sexe. Ajoute aussi des boutons pour envoyer un MP ou copier le lien permanent.
+					Affiche les avatars des membres à gauche des posts ainsi que leur rangs et leur sexe.
+					Ajoute aussi des boutons pour envoyer un MP ou copier le lien permanent. Il est possible aussi
+					d'activer un bouton pour rechercher les topics d'un auteur.
 				</p>
+				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
 					<img src="img/avatar.png" /> 
 				</div>
@@ -28,6 +48,7 @@
 				<p>
 					Permet de citer un message de manière propre simplement en cliquant sur un bouton "citer".
 					Les citations sont ensuite mises en forme pour mieux ressortir du message.
+					Le type de citation texte peut être changé entre "SpawnKill", "JVC Master" et "Tubroforum".
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation texte" >
@@ -91,6 +112,7 @@
 			<div class="panel-body" >
 				<p>
 					Ce module change le favicon de l'onglet pour indiquer combien de posts ont été ajoutés au topic depuis le chargement de la page.
+					Quand un messages est posté, un petit son est joué. Ce son peut évidemment être désactivé.
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Nouveaux posts" >
 					<img src="img/nouveaux-posts.png" />
@@ -129,6 +151,36 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
+				<h3>Mise en avant des posts de l'auteur</h3>
+				<h4>(Contributeur : <a target="_blank" href="https://github.com/delgan" >Delgan</a>)</h4>
+			</div>
+			<div class="panel-body" >
+				<p>
+					Ce module ajoute une petite couronne devant les posts de l'auteur pour l'identifier facilement.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="A Crown for a King !" >
+					<img src="img/crown.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default feature" >
+			<div class="panel-heading" >
+				<h3>Mise en valeur de vos posts</h3>
+				<h4>(Contributeur : <a target="_blank" href="https://github.com/nounoursheureux" >nounoursheureux</a>)</h4>
+			</div>
+			<div class="panel-body" >
+				<p>
+					Ce module colore votre pseudo de la couleur principale du module pour retrouver facilement vos posts.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Mise en avant de vos posts" >
+					<img src="img/hilight.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default feature" >
+			<div class="panel-heading" >
 				<h3>Accès rapide à la dernière page d'un topic</h3>
 			</div>
 			<div class="panel-body" >
@@ -143,15 +195,15 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
-				<h3>Panneau de configuration</h3>
+				<h3>Raccourcis clavier</h3>
+				<h4>(Contributeur : <a target="_blank" href="https://github.com/superdrac" >Superdrac</a>)</h4>
 			</div>
 			<div class="panel-body" >
 				<p>
-					Ce panneau permet de choisir et de configurer tous les modules du Script.
-					Il s'ouvre à la première installation ou en cliquant sur l'engrenage en haut à droite du forum
+					Ce module ajoute des raccourcis clavier pour effectuer des actions comme changer de page ou revenir à la liste des sujets.
 				</p>
-				<div data-toggle="tooltip" class="feature-img" title="Panneau de configuration" >
-					<img src="img/config-panel.png" />
+				<div data-toggle="tooltip" class="feature-img" title="Accès à la dernière page" >
+					<img src="img/keys.png" />
 				</div>
 			</div>
 		</div>
