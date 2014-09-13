@@ -2,17 +2,17 @@
 	<h4 class="browser chrome firefox" ><strong>Étape 1 :</strong> Installer GreaseMonkey ou TamperMonkey</h4>
 	<h4 class="browser opera" ><strong>Étape 1 :</strong> Installer Download Chrome Extensions</h4>
 	<p class="browser firefox icon-browser" >
-		Avec Firefox : <a target="_blank" href="https://addons.mozilla.org/fr/firefox/addon/greasemonkey/" >Installer GreaseMonkey</a>
+		<a target="_blank" href="https://addons.mozilla.org/fr/firefox/addon/greasemonkey/" >Installer GreaseMonkey</a>
 		<span class="gm-enabled glyphicon glyphicon-ok"></span>
 	</p>
 	<p class="browser chrome icon-browser" >
-		Avec Chrome : <a target="_blank" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Installer TamperMonkey</a>
+		<a target="_blank" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Installer TamperMonkey</a>
 		<span class="gm-enabled glyphicon glyphicon-ok"></span>
 	</p>
 
 	<div class="browser opera" >
 		<p class="opera icon-browser" >
-			Avec Opera : <a target="_blank" href="https://addons.opera.com/fr/extensions/details/download-chrome-extension-9/?display=en" >Installer "Download Chrome Extensions"</a>
+			<a target="_blank" href="https://addons.opera.com/fr/extensions/details/download-chrome-extension-9/?display=en" >Installer "Download Chrome Extensions"</a>
 		</p>
 		<br />
 		<h4>
