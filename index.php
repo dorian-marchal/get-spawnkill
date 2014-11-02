@@ -202,7 +202,7 @@
 				<p>
 					Ce module ajoute des raccourcis clavier pour effectuer des actions comme changer de page ou revenir à la liste des sujets.
 				</p>
-				<div data-toggle="tooltip" class="feature-img" title="Accès à la dernière page" >
+				<div data-toggle="tooltip" class="feature-img" title="Raccourcis clavier" >
 					<img src="img/keys.png" />
 					<!-- shortcut markdown
 					Sur la liste des sujets :
