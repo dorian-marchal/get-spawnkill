@@ -18,7 +18,7 @@
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Panneau de configuration" >
-					<img src="img/settings.png" /> 
+					<img src="img/settings.png" />
 				</div>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
-					<img src="img/avatar.png" /> 
+					<img src="img/avatar.png" />
 				</div>
 			</div>
 		</div>
@@ -204,6 +204,23 @@
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Accès à la dernière page" >
 					<img src="img/keys.png" />
+					<!-- shortcut markdown
+					Sur la liste des sujets :
+					- `Ctrl + Maj +` :arrow_left: : Première page
+					- `Ctrl + Maj +` :arrow_right: : Dernière page
+					- `Ctrl + Espace` : Nouveau topic
+
+
+					Sur un topic :
+					- `Ctrl +` :arrow_left: : Page précédente
+					- `Ctrl +` :arrow_right: : Page suivante
+					- `Ctrl + Maj +` :arrow_left: : Première page
+					- `Ctrl + Maj +` :arrow_right: : Dernière page
+					- `Ctrl + Espace` : Répondre au topic
+
+					Partout :
+					- `Ctrl +` :arrow_down: : Ouvrir les paramètres
+					-->
 				</div>
 			</div>
 		</div>
