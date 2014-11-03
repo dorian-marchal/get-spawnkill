@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo $base_url; ?>">
-            <img id="logo" src="img/logo.png" >JVC SpawnKill</img>
+            <img id="logo" src="img/logo.png" />JVC SpawnKill
         </a>
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -32,7 +32,7 @@
                 </li>
                 <li>
                     <div>
-                        <a target="_blank" href="http://www.jeuxvideo.com/forums/1-50-167035670-18-0-1-0-script-jvc-spawnkill-en-attendant-re.htm#footer" id="bug" class="btn btn-default navbar-btn" >
+                        <a target="_blank" href="http://www.jeuxvideo.com/forums/1-50-167035670-18-0-1-0-script-jvc-spawnkill-en-attendant-re.htm#last-page" id="bug" class="btn btn-default navbar-btn" >
                             <span class="glyphicon glyphicon-cog" ></span> Reporter un bug
                         </a>
                     </div>

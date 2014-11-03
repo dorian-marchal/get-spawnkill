@@ -31,7 +31,7 @@
 		</p>
 		<div>
 			<br>
-			<h4><strong>Étape 4 :</strong> Installer SpawnKill : 
+			<h4><strong>Étape 4 :</strong> Installer SpawnKill :
 			<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 				<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 			</a>
@@ -46,23 +46,23 @@
 	<br />
 
 	<div class="browser firefox" >
-		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
+		<h4><strong>Étape 2 :</strong> Installer SpawnKill :
 		<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
 		<p class="firefox icon-browser" >Puis cliquer sur "Installer"  <img data-help="h3" src="img/help.png" title="Afficher une image d'aide" class="help" /></p>
-		<img class="h3 screen"src="img/install-greasemonkey.png" title="Cliquer sur 'Installer'" />
+		<img class="h3 screen" src="img/install-greasemonkey.png" title="Cliquer sur 'Installer'" />
 	</div>
 
 	<div class="browser chrome" >
-		<h4><strong>Étape 2 :</strong> Installer SpawnKill : 
+		<h4><strong>Étape 2 :</strong> Installer SpawnKill :
 		<a target="_blank" class="btn  btn-success" href="https://github.com/dorian-marchal/spawnkill/raw/master/jvc-spawnkill.user.js?nocache&<?php echo "$rand"; ?>" >
 			<span class="glyphicon glyphicon-download-alt"></span> Cliquer ici !
 		</a>
 		</h4>
 		<p class="chrome icon-browser" >Puis cliquer sur "Installer"  <img data-help="h4" src="img/help.png" title="Afficher une image d'aide" class="help" /></p>
-		<img class="h4 screen"src="img/install-tampermonkey.png" title="Cliquer sur 'Installer'" />
+		<img class="h4 screen" src="img/install-tampermonkey.png" title="Cliquer sur 'Installer'" />
 	</div>
 	<script type="text/javascript" src="resource://greasemonkey/addons4.js"></script>
 	<script type="text/javascript">
