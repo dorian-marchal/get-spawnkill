@@ -1,5 +1,7 @@
-<?php $page = "sondage"; ?>
 <?php
+
+	$page = 'sondage';
+	$description = 'Votez pour la prochaine fonctionnalité à ajouter à JVC SpawnKill';
 
 	//Génération d'une chaine userscript alétaoire
 	$rand = md5(uniqid(rand(), true)) . '.user.js';

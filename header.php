@@ -1,5 +1,5 @@
 <?php
-	$base_url = "http://www.spawnkill.fr/";
+	$base_url = '/';
 
 	//Génération d'une chaine userscript alétaoire
 	$rand = md5(uniqid(rand(), true)) . '.user.js';
@@ -16,11 +16,15 @@
 		$browser = "opera";
 	}
 
+	$description = !empty($description) ? $description : 'JVC SpawnKill est une extension entièrement paramétrable permettant d\'ajouter de nombreuses fonctionnalités à jeuxvideo.com';
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<meta name="description" content="<?php echo $description; ?>" />
+	<meta name="keywords" content="spawnkill, jvc, script, jeuxvideo.com, respawn, plugin, extension, userscript, modules" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 	<title>JVC SpawnKill</title>
