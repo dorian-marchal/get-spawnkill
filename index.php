@@ -48,7 +48,7 @@
 				<p>
 					Permet de citer un message de manière propre simplement en cliquant sur un bouton "citer".
 					Les citations sont ensuite mises en forme pour mieux ressortir du message.
-					Le type de citation texte peut être changé entre "SpawnKill", "JVC Master" et "Tubroforum".
+					Le type de citation texte peut être changé entre "SpawnKill", "JVC Master" et "Turboforum".
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation texte" >
