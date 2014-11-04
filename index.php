@@ -190,6 +190,15 @@
 				<div data-toggle="tooltip" class="feature-img" title="Accès à la dernière page" >
 					<img src="img/last-page.png" />
 				</div>
+				<br />
+				<br />
+				<p>
+					De plus, il ajoute un lien en haut à gauche du titre du topic qui peut être glissé/déposé dans vos favoris pour en faire un raccourci
+					qui pointera <strong>toujours</strong> vers la dernière page du topic.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Raccourci vers la dernière page" >
+					<img src="img/last-page-bookmark.png" />
+				</div>
 			</div>
 		</div>
 
