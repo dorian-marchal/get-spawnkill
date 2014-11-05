@@ -38,10 +38,11 @@ h3 {
 
 .navbar .tooltip-inner {
 	max-width: 500px;
+	font-size: 1.1em;
 }
 
 .navbar .irc .tooltip-inner {
-	width: 300px;
+	width: 220px;
 }
 .navbar .donation .tooltip-inner {
 	width: 200px;
