@@ -4,10 +4,13 @@ $(function() {
 
 	//Légendes des images
 	$(".feature-img").tooltip({
-		placement: "right"
+		placement: "right",
+		animation: false,
 	});
 
-	$(".navbar [data-toggle='tooltip']").tooltip();
+	$(".navbar [data-toggle='tooltip']").tooltip({
+		animation: false,
+	});
 
 	//Popup de téléchargement
 	$("#download-button a").fancybox();
