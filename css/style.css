@@ -37,8 +37,14 @@ h3 {
 }
 
 .navbar .tooltip-inner {
-	max-width: 300px;
+	max-width: 500px;
+}
+
+.navbar .irc .tooltip-inner {
 	width: 300px;
+}
+.navbar .donation .tooltip-inner {
+	width: 200px;
 }
 
 #container {
