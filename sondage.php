@@ -24,7 +24,7 @@
 <?php include "fixed-box.php"; ?>
 
 	<section class="col-lg-7 col-md-8">
-		<h1>Voter pour la prochaine fonctionnalité !</h1>
+		<h1>Votez pour la prochaine fonctionnalité !</h1>
 		<div id="sondage" >
 			<iframe frameborder="0" allowtransparency="true" title="Sondage" src="http://sondage.io/1065/Quelle-fonctionnalite-ajouter-en-premier-a-SpawnKill" ></iframe>
 		</div>
