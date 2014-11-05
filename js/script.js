@@ -10,6 +10,7 @@ $(function() {
 
 	$(".navbar [data-toggle='tooltip']").tooltip({
 		animation: false,
+		trigger: "hover",
 	});
 
 	//Popup de téléchargement
