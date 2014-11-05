@@ -1,18 +1,20 @@
 "use strict";
 
 $(function() {
-	
+
 	//Légendes des images
 	$(".feature-img").tooltip({
 		placement: "right"
 	});
 
+	$(".navbar [data-toggle='tooltip']").tooltip();
+
 	//Popup de téléchargement
 	$("#download-button a").fancybox();
-	
+
 	if(window.location.hash.substring(1) === "download-box" ||
 		window.location.hash.substring(1) === "download") {
-		$("#download-button a").click();		
+		$("#download-button a").click();
 	}
 
 	//Aide d'installation

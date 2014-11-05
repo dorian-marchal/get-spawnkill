@@ -36,6 +36,11 @@ h3 {
 	color: #CCC;
 }
 
+.navbar .tooltip-inner {
+	max-width: 300px;
+	width: 300px;
+}
+
 #container {
 	margin-top: 50px;
 }

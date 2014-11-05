@@ -18,6 +18,9 @@
             <ul class="nav navbar-nav">
                 <li class="<?php $page === 'fonctionnalites' ? 'active' : ''; ?>"><a href="<?php echo $base_url; ?>">Fonctionnalités</a></li>
                 <li class="<?php $page === 'sondage' ? 'active' : ''; ?>"><a href="<?php echo $base_url; ?>sondage.php">Sondage</a></li>
+                <li>
+                    <a data-toggle="tooltip" data-placement="bottom" title="Canal IRC : irc://irc.jeuxvideo.com/#spawnkill" target="_blank" href="http://webirc.jeuxvideo.com:7778/#spawnkill">Canal IRC</a>
+                </li>
                 <form target="_blank" style="display: none;" class="donation-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input name="cmd" value="_donations" type="hidden">
                     <input name="business" value="LHTF3GZ496X8U" type="hidden">
