@@ -36,6 +36,18 @@ h3 {
 	color: #CCC;
 }
 
+.navbar .tooltip-inner {
+	max-width: 500px;
+	font-size: 1.1em;
+}
+
+.navbar .irc .tooltip-inner {
+	width: 220px;
+}
+.navbar .donation .tooltip-inner {
+	width: 200px;
+}
+
 #container {
 	margin-top: 50px;
 }

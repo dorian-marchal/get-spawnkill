@@ -18,6 +18,9 @@
             <ul class="nav navbar-nav">
                 <li class="<?php $page === 'fonctionnalites' ? 'active' : ''; ?>"><a href="<?php echo $base_url; ?>">Fonctionnalités</a></li>
                 <li class="<?php $page === 'sondage' ? 'active' : ''; ?>"><a href="<?php echo $base_url; ?>sondage.php">Sondage</a></li>
+                <li class="irc">
+                    <a data-toggle="tooltip" data-placement="bottom" title="irc://irc.jeuxvideo.com/#spawnkill" target="_blank" href="http://webirc.jeuxvideo.com:7778/#spawnkill">Canal IRC</a>
+                </li>
                 <form target="_blank" style="display: none;" class="donation-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input name="cmd" value="_donations" type="hidden">
                     <input name="business" value="LHTF3GZ496X8U" type="hidden">
@@ -27,8 +30,8 @@
                     <input name="currency_code" value="EUR" type="hidden">
                     <input name="bn" value="PP-DonationsBF:1408178230-capture-du-2014-08-16-10-33-38.jpg:NonHostedGuest" type="hidden">
                 </form>
-                <li>
-                    <a onclick="$('.donation-form').submit();" title="Donner 2€ pour l'hébergement du script" href="#">Me payer une bière</a>
+                <li class="donation">
+                    <a data-toggle="tooltip" data-placement="bottom"  onclick="$('.donation-form').submit();" title="Faire un don de 2€ à Spixel_" href="#">Me payer une bière</a>
                 </li>
                 <li>
                     <div>
