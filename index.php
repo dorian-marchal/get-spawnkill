@@ -92,7 +92,7 @@
 			<div class="panel-body" >
 				<p>
 					Remplace les liens vers du contenu par le contenu lui-même. Un bouton permet de cacher les contenus affichés<br>
-					Contenu pris en compte par le module : Youtube, DailyMotion, Vimeo, Pixule, Sondage.io, Vocaroo, Images PNG/JPG/GIF.
+					Contenu pris en compte par le module : Youtube, DailyMotion, Vimeo, Pixule, Sondage.io, Twitter, Vocaroo, Images PNG/JPG/GIF.
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Bouton de masquage des contenus" >
 					<img src="img/media-buttons.png" />
