@@ -213,26 +213,6 @@
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Raccourcis clavier" >
 					<img src="img/keys.png" />
-					<!-- shortcut markdown
-					Sur la liste des sujets :
-					- `Ctrl +` :arrow_left: : Page précédente
-					- `Ctrl +` :arrow_right: : Page suivante
-					- `Ctrl + Espace` : Nouveau topic
-					- `Ctrl + F` : Rechercher
-
-					Sur un topic :
-					- `Ctrl +` :arrow_left: : Page précédente
-					- `Ctrl +` :arrow_right: : Page suivante
-					- `Ctrl + Maj +` :arrow_left: : Première page
-					- `Ctrl + Maj +` :arrow_right: : Dernière page
-					- `Ctrl + Espace` : Répondre au topic
-					- `Ctrl + Haut` : Retour à la liste des sujets
-
-					Partout :
-					- `Ctrl +` :arrow_down: : Ouvrir les paramètres
-					- `Echap` : Ferme les fenêtres modales
-
-					-->
 				</div>
 			</div>
 		</div>
