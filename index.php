@@ -185,12 +185,17 @@
 			</div>
 			<div class="panel-body" >
 				<p>
-					Ce module permet de masquer les posts d'un certain auteur. Par défaut, il est possible d'afficher les posts masqués
-					mais une option est disponible pour les supprimer totalement.
+					Ce module permet de masquer les posts d'un certain auteur.
 				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Bouton de masquage" >
 					<img src="img/block-button.png" />
 				</div>
+				<br />
+				<br />
+				<p>
+					Par défaut, il est possible de réafficher les posts masqués mais
+					une option est disponible pour les supprimer totalement de la page.
+				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Post ignoré" >
 					<img src="img/blocked-post.png" />
 				</div>
