@@ -181,6 +181,24 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
+				<h3>Masquer les posts d'un membre</h3>
+			</div>
+			<div class="panel-body" >
+				<p>
+					Ce module permet de masquer les posts d'un certain auteur. Par défaut, il est possible d'afficher les posts masqués
+					mais une option est disponible pour les supprimer totalement.
+				</p>
+				<div data-toggle="tooltip" class="feature-img" title="Bouton de masquage" >
+					<img src="img/block-button.png" />
+				</div>
+				<div data-toggle="tooltip" class="feature-img" title="Post ignoré" >
+					<img src="img/blocked-post.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default feature" >
+			<div class="panel-heading" >
 				<h3>Accès rapide à la dernière page d'un topic</h3>
 			</div>
 			<div class="panel-body" >
