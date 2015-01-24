@@ -37,17 +37,18 @@
 					comme l'affichage des topics de l'auteur ou la copie du lien permanent du post.
 				</p>
 				<br />
-				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
-					<img src="img/avatar.png" />
+				<div data-toggle="tooltip" class="feature-img" title="Infos et actions" >
+					<img src="img/infos.png" />
 				</div>
+				<br />
 				<br />
 				<br />
 				<p>
 					Ce module permet aussi d'afficher le profil d'un auteur dans une fenêtre modale.
 				</p>
 				<br />
-				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
-					<img src="img/avatar.png" />
+				<div data-toggle="tooltip" class="feature-img" title="Profil dans une modale" >
+					<img src="img/cdv.png" />
 				</div>
 			</div>
 		</div>
