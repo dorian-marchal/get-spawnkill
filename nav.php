@@ -32,7 +32,7 @@
                 </li>
                 <li>
                     <div>
-                        <a target="_blank" href="http://www.jeuxvideo.com/forums/1-50-167035670-18-0-1-0-script-jvc-spawnkill-en-attendant-re.htm#last-page" id="bug" class="btn btn-default navbar-btn" >
+                        <a target="_blank" href="http://www.jeuxvideo.com/forums/42-1000021-38233436-1-0-1-0-script-jvc-spawnkill-amelioration-des-forums.htm#last-page" id="bug" class="btn btn-default navbar-btn" >
                             <span class="glyphicon glyphicon-cog" ></span> Reporter un bug
                         </a>
                     </div>
