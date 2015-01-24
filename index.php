@@ -12,8 +12,12 @@
 			</div>
 			<div class="panel-body" >
 				<p>
-					Le point fort du script : tous les modules sont configurables et même désactivables via un panneau de configuration très complet.
-					Il est impossible que vous ne trouviez pas quelque chose qui vous convient.
+					SpawnKill est entiérement personnalisable : une fonctionnalité ne vous plait pas ?
+					Il suffit d'ouvrir les paramètres pour le désactiver.
+					<br>
+					En plus de ça, tous les modules ont leurs propres options.
+				</p>
+				<p>
 					Le panneau s'ouvre à la première installation ou en cliquant sur l'engrenage en haut à droite du forum
 				</p>
 				<br />
@@ -25,13 +29,21 @@
 
 		<div class="panel panel-default feature" >
 			<div class="panel-heading" >
-				<h3>Avatars et autres infos</h3>
+				<h3>Informations et actions sur les posts</h3>
 			</div>
 			<div class="panel-body" >
 				<p>
-					Affiche les avatars des membres à gauche des posts ainsi que leur rangs et leur sexe.
-					Ajoute aussi des boutons pour envoyer un MP ou copier le lien permanent. Il est possible aussi
-					d'activer un bouton pour rechercher les topics d'un auteur.
+					Affiche le sexe de l'auteur s'il est disponible ainsi que des boutons utiles,
+					comme l'affichage des topics de l'auteur ou la copie du lien permanent du post.
+				</p>
+				<br />
+				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
+					<img src="img/avatar.png" />
+				</div>
+				<br />
+				<br />
+				<p>
+					Ce module permet aussi d'afficher le prodil d'un auteur dans une fenêtre modale.
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
@@ -46,40 +58,11 @@
 			</div>
 			<div class="panel-body" >
 				<p>
-					Permet de citer un message de manière propre simplement en cliquant sur un bouton "citer".
-					Les citations sont ensuite mises en forme pour mieux ressortir du message.
-					Le type de citation texte peut être changé entre "SpawnKill", "JVC Master" et "Turboforum".
+					Permet de citer seulement une partie d'un post en sélectionnant le texte à citer.
 				</p>
 				<br />
-				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation texte" >
-					<img src="img/citations-texte.png" />
-				</div>
-				<br/>
-				<br/>
-				<div data-toggle="tooltip" class="feature-img" title="Cadre de citation amélioré" >
-					<img src="img/citations-html.png" />
-				</div>
-				<br>
-				<br>
-				<p>
-					Ce module permet aussi de citer seulement une partie d'un post en sélectionnant le texte à citer.
-				</p>
 				<div data-toggle="tooltip" class="feature-img" title="Citation partielle" >
 					<img src="img/citation-partielle.png" />
-				</div>
-			</div>
-		</div>
-
-		<div class="panel panel-default feature" >
-			<div class="panel-heading" >
-				<h3>Réponse Rapide</h3>
-			</div>
-			<div class="panel-body" >
-				<p>
-					Permet de répondre à un topic sans avoir à cliquer sur "Répondre". le formulaire de réponse est présent sur toutes les pages.
-				</p>
-				<div data-toggle="tooltip" class="feature-img" title="Formulaire de réponse rapide" >
-					<img src="img/quick-response.png" />
 				</div>
 			</div>
 		</div>
