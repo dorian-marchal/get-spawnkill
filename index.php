@@ -43,7 +43,7 @@
 				<br />
 				<br />
 				<p>
-					Ce module permet aussi d'afficher le prodil d'un auteur dans une fenêtre modale.
+					Ce module permet aussi d'afficher le profil d'un auteur dans une fenêtre modale.
 				</p>
 				<br />
 				<div data-toggle="tooltip" class="feature-img" title="Exemple d'avatar" >
