@@ -80,7 +80,7 @@
 	    <input name="currency_code" value="EUR" type="hidden">
 	    <input name="bn" value="PP-DonationsBF:1408178230-capture-du-2014-08-16-10-33-38.jpg:NonHostedGuest" type="hidden">
 	</form>
-    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#">
-    	<span class="glyphicon glyphicon-heart-empty"></span> Donner 2€ pour l'hébergement du script
+    <a class="donation-download-button btn btn-warning btn-lg" onclick="$('.donation-download-form').submit();" href="#" title="Faire un don de 2€ à Spixel_">
+    	<span class="glyphicon glyphicon-heart-empty"></span> Payer une bière à l'auteur
     </a>
 </div>
