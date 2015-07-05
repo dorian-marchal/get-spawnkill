@@ -106,7 +106,7 @@
 
         <div class="panel panel-default feature" >
             <div class="panel-heading" >
-                <h3>Mise en avant des nouveaux topics</h3>
+                <h3>Mise en avant des topics particuliers</h3>
             </div>
             <div class="panel-body" >
                 <p>
@@ -114,6 +114,14 @@
                 </p>
                 <div data-toggle="tooltip" class="feature-img" title="Nouveau topic" >
                     <img src="img/nouveau-topic.png" />
+                </div>
+            </div>
+            <div class="panel-body" >
+                <p>
+                    Ainsi que les topics d'au moins 5000 posts
+                </p>
+                <div data-toggle="tooltip" class="feature-img" title="Topics importants" >
+                    <img src="img/topics-importants.png" />
                 </div>
             </div>
         </div>
