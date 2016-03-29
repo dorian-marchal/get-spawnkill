@@ -232,6 +232,21 @@
             </div>
         </div>
 
+        <div class="panel panel-default feature" >
+            <div class="panel-heading" >
+                <h3>Indicateur de notifications pour les secondaires</h3>
+            </div>
+            <div class="panel-body" >
+                <p>
+                    Permet de voir rapidement les notifications de vos pseudos secondaires.
+                </p>
+                <div data-toggle="tooltip" class="feature-img" title="Notifications des secondaires" >
+                    <img src="img/aliases.png" />
+                    <img src="img/alias-notifications.png" />
+                </div>
+            </div>
+        </div>
+
     </section>
 </div>
 
